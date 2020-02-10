@@ -48,7 +48,7 @@
 		app:layout_constraintStart_toStartOf="parent"
 		app:layout_constraintTop_toBottomOf="@id/guideline2"
 
-		 />
+		/>
 
 	<Button
 		android:id="@+id/button3"
@@ -58,7 +58,6 @@
 		app:layout_constraintBottom_toTopOf="@id/guideline2"
 		app:layout_constraintEnd_toEndOf="@id/guideline"
 		app:layout_constraintStart_toStartOf="parent"
-		app:layout_constraintTop_toTopOf="parent"
-		 />
+		app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
