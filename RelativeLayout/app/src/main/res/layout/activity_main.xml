@@ -19,7 +19,7 @@
 		android:layout_height="wrap_content"
 		android:layout_alignParentStart="true"
 		android:layout_alignParentTop="true"
-		android:text="TOP" />
+		android:text="@string/top" />
 
 	<Button
 		android:id="@+id/button4"
@@ -27,7 +27,7 @@
 		android:layout_height="wrap_content"
 		android:layout_alignParentEnd="true"
 		android:layout_alignParentBottom="true"
-		android:text="LEFT BELOW TOP" />
+		android:text="@string/left_below_top" />
 
 	<Button
 		android:id="@+id/button5"
@@ -35,7 +35,7 @@
 		android:layout_height="wrap_content"
 		android:layout_below="@+id/button3"
 		android:layout_alignParentStart="true"
-		android:text="BOTTOM" />
+		android:text="@string/bottom" />
 
 	<Button
 		android:id="@+id/button6"
@@ -43,6 +43,6 @@
 		android:layout_height="wrap_content"
 		android:layout_above="@id/button4"
 		android:layout_alignParentEnd="true"
-		android:text="RIGHT ABOVE BOTTOM" />
+		android:text="@string/right_above_bottom" />
 
 </RelativeLayout>
